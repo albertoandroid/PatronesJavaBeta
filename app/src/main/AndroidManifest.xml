@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myapplication">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".structural.proxy.ProxyActivity"></activity>
+        <activity android:name=".structural.flyweight.FlyweightActivity" />
+        <activity android:name=".structural.facade.FacadeActivity" />
+        <activity android:name=".structural.decorator.DecoratorActivity" />
+        <activity android:name=".behavioral.interpreter.InterpreterActivity" />
+        <activity android:name=".structural.composite.CompositeActivity" />
+        <activity android:name=".structural.bridge.BrigeActivity" />
+        <activity android:name=".structural.adapter.AdapterActivity" />
+        <activity android:name=".behavioral.visitor.VisitorActivity" />
+        <activity android:name=".behavioral.templatemethod.TemplateMethodActivity" />
+        <activity android:name=".behavioral.strategy.StrategyActivity" />
+        <activity android:name=".behavioral.state.StateActivity" />
+        <activity android:name=".behavioral.observer.ObserverActivity" />
+        <activity android:name=".behavioral.memento.MementoActivity" />
+        <activity android:name=".behavioral.mediator.MediatorActivity" />
+        <activity android:name=".behavioral.iteractor.IteratorActivity" />
+        <activity android:name=".behavioral.command.CommandActivity" />
+        <activity android:name=".behavioral.chainofresponsibility.ChainOfResponsibilityActivity" />
+        <activity android:name=".singlenton.SinglentonActivity" />
+        <activity android:name=".prototype.PrototypeActivity" />
+        <activity android:name=".abstractfactory.AbstractFactoryActivity" />
+        <activity android:name=".factory.FactoryActivity" />
+        <activity android:name=".builder.BuilderActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
